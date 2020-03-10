@@ -47,10 +47,10 @@
      <name>Internal Release</name>
         <url>http://13.229.53.229:8081/repository/Jenkins_releases/</url>
    </repository>
-   <snapshotrepository>
+   <repository>
       <id>deployment</id>
      <name>Internal Snapshot Release</name>
         <url>http://13.229.53.229:8081/repository/Jenkins_Snapshots/</url>
-   </snapshotrepository>
+   </repository>
 </distributionManagement>
 </project>
