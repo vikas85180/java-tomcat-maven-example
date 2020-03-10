@@ -42,15 +42,15 @@
     </plugins>
   </build>
   <distributionManagement>
-   <repository>
-      <id>deployment</id>
-     <name>Internal Release</name>
-        <url>http://13.229.53.229:8081/repository/Jenkins_releases/</url>
-   </repository>
-   <snapshotrepository>
-      <id>deployment</id>
-     <name>Internal Snapshot Release</name>
-        <url>http://13.229.53.229:8081/repository/Jenkins_Snapshots/</url>
-   </snapshotrepository>
-</distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://13.229.53.229:8081/repository/Jenkins_releases/ </url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://13.229.53.229:8081/repository/Jenkins_Snapshots/ </url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
