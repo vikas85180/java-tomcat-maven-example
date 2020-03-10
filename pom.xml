@@ -16,7 +16,7 @@
     </dependency>
      <dependency>
       <groupId>snapshotrepository</groupId>
-      
+      <artifactId>snapshotrepository</artifactId>
       
           </dependency>
   </dependencies>
