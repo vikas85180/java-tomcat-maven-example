@@ -41,4 +41,16 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+        <repository>
+            <id>Nexus</id>
+            <name>Internal Releases</name>
+            <url>http://13.229.53.229:8081/repository/Maven_releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>Nexus</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://13.229.53.229:8081/repository/Maven_snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
