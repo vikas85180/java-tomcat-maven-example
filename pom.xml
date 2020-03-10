@@ -14,6 +14,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+     <dependency>
+      <groupId>snapshotrepository</groupId>
+      
+      
+          </dependency>
   </dependencies>
   <build>
     <finalName>java-tomcat-maven-example</finalName>
@@ -47,10 +52,10 @@
      <name>Internal Release</name>
         <url>http://13.229.53.229:8081/repository/Jenkins_releases/</url>
    </repository>
-   <repository>
+   <snapshotrepository>
       <id>deployment</id>
      <name>Internal Snapshot Release</name>
         <url>http://13.229.53.229:8081/repository/Jenkins_Snapshots/</url>
-   </repository>
+   </snapshotrepository>
 </distributionManagement>
 </project>
